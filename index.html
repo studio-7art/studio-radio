@@ -4,17 +4,74 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>STUDIO RADIO | 成果につながるWeb体験を設計</title>
+  <title>STUDIO RADIO | Web制作・UI/UX設計・ブランドデザイン</title>
+
 
   <link rel="icon" href="./favicon.png?v=2" type="image/png">
   <link rel="shortcut icon" href="./favicon.png?v=2" type="image/png">
-  <link rel="apple-touch-icon" href="./favicon.png">
+  <link rel="apple-touch-icon" href="./fao.jp/">
 
-  <meta name="description" content="STUDIO RADIOは、成果につながるWebサイト・UI/UX・ブランド体験を設計するデザインスタジオです。" />
-  <meta name="keywords" content="Webデザイン, UI UX, SaaS, LP制作, コーポレートサイト, デザインスタジオ" />
-  <meta name="robots" content="index, follow" />
+  <meta name="description" content="STUDIO RADIOは、Web制作・UI/UX設計・ブランドデザインを通じて、成果につながるWeb体験を設計するデザインスタジオです。" />
+  <meta name="keywords" content="Web制作, Webデザイン, UI UX, SaaS, LP制作, コーポレートサイト制作, ブランドデザイン, デザインスタジオ" />
+  <meta name="robots" content="index, follow" />vicon.png">
+  <link rel="canonical" href="https://studioradi
   <meta name="theme-color" content="#f6f6f6" />
 
+  <meta property="og:site_name" content="STUDIO RADIO">
+  <meta property="og:title" content="STUDIO RADIO | Web制作・UI/UX設計・ブランドデザイン">
+  <meta property="og:description" content="STUDIO RADIOは、Web制作・UI/UX設計・ブランドデザインを通じて、成果につながるWeb体験を設計するデザインスタジオです。">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://studioradio.jp/">
+  <meta property="og:image" content="https://studioradio.jp/ogp.jpg">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="STUDIO RADIO | Web制作・UI/UX設計・ブランドデザイン">
+  <meta name="twitter:description" content="STUDIO RADIOは、Web制作・UI/UX設計・ブランドデザインを通じて、成果につながるWeb体験を設計するデザインスタジオです。">
+  <meta name="twitter:image" content="https://studioradio.jp/ogp.jpg">
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-5X1GWWEP8N"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-5X1GWWEP8N');
+  </script>
+  <!-- Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "STUDIO RADIO",
+    "url": "https://studioradio.jp/",
+    "description": "STUDIO RADIOは、Web制作・UI/UX設計・ブランドデザインを通じて、成果につながるWeb体験を設計するデザインスタジオです。",
+    "publisher": {
+      "@type": "Organization",
+      "name": "STUDIO RADIO",
+      "url": "https://studioradio.jp/"
+    },
+    "inLanguage": "ja"
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ProfessionalService",
+    "name": "STUDIO RADIO",
+    "image": "https://studioradio.jp/ogp.jpg",
+    "url": "https://studioradio.jp/",
+    "description": "Web制作・UI/UX設計・ブランド体験設計を行うデザインスタジオ。",
+    "areaServed": "JP",
+    "priceRange": "¥¥",
+    "serviceType": [
+      "Web Design",
+      "UI/UX Design",
+      "Brand Design"
+    ]
+  }
+  </script>
   <style>
     * {
       margin: 0;
@@ -212,8 +269,9 @@
 
     h1 {
       font-size: 40px;
-      font-weight: 500;
-      line-height: 1.4;
+      font-weight: 700;
+      line-height: 1.45;
+      letter-spacing: 0.04em;
       margin-bottom: 18px;
     }
 
@@ -403,6 +461,13 @@
       color: rgba(0,0,0,0.62);
     }
 
+    .about-signature {
+      margin-top: 72px;
+      font-size: 14px;
+      line-height: 2;
+      color: rgba(0,0,0,0.58);
+    }
+
     .contact {
       padding: 120px 40px;
       background: #f6f6f6;
@@ -463,6 +528,18 @@
       border-radius: 0;
     }
 
+    input::placeholder,
+    textarea::placeholder {
+      color: rgba(0,0,0,0.42);
+      opacity: 1;
+    }
+
+    input::-webkit-input-placeholder,
+    textarea::-webkit-input-placeholder {
+      color: rgba(0,0,0,0.42);
+      opacity: 1;
+    }
+
     input:focus,
     select:focus,
     textarea:focus {
@@ -511,6 +588,12 @@
       text-align: center;
     }
 
+    .footer a {
+      color: rgba(255,255,255,0.72);
+      text-decoration: none;
+      margin-right: 18px;
+    }
+
     @media (max-width: 900px) {
       .works-grid,
       .about-grid,
@@ -548,6 +631,7 @@
       h1 {
         font-size: 28px;
         line-height: 1.55;
+        letter-spacing: 0.03em;
       }
 
       .sub {
@@ -693,6 +777,7 @@
       <h2 class="section-title fade-up">目的から逆算し、行動につながる構造を設計します。</h2>
 
       <div class="works-grid">
+
         <article class="work-card fade-up">
           <picture>
             <source srcset="./works1.webp" type="image/webp">
@@ -711,7 +796,11 @@
             <div class="work-number">01</div>
             <div class="work-category">Dashboard UI Design</div>
             <h3 class="work-title">Atlas Analytics</h3>
-            <p class="work-text">BtoB SaaS向けの分析ダッシュボード設計。複雑なデータ構造を、意思決定しやすい情報階層へ再構築。</p>
+            <p class="work-text">
+              BtoB SaaS向けの分析ダッシュボード設計。複雑な数値情報を整理し、
+              意思決定までの導線を明確化。重要指標・比較・次アクションが
+              ひと目で分かる構成へ再設計。
+            </p>
           </div>
         </article>
 
@@ -733,7 +822,11 @@
             <div class="work-number">02</div>
             <div class="work-category">Corporate Website Redesign</div>
             <h3 class="work-title">NORTH</h3>
-            <p class="work-text">中堅企業のコーポレートサイトリニューアル。信頼性と事業領域の明確化を軸に、サイト全体を再構成。</p>
+            <p class="work-text">
+              中堅企業のコーポレートサイトリニューアル。事業内容・強み・
+              問い合わせ導線を再整理し、初回訪問でも信頼感と提供価値が
+              伝わる構成へ改善。
+            </p>
           </div>
         </article>
 
@@ -755,9 +848,14 @@
             <div class="work-number">03</div>
             <div class="work-category">Landing Page Optimization</div>
             <h3 class="work-title">LUMINA</h3>
-            <p class="work-text">CV率改善を目的に、訴求・導線・CTA配置を見直し、コンバージョン導線を最適化。</p>
+            <p class="work-text">
+              サービスLPのコンバージョン改善。ファーストビュー、訴求順、
+              CTA配置を見直し、興味喚起から問い合わせまでの流れを
+              滑らかに設計。
+            </p>
           </div>
         </article>
+
       </div>
     </div>
   </section>
@@ -772,26 +870,43 @@
       </p>
 
       <div class="about-grid">
+
         <div class="about-item fade-up">
           <h3 class="about-item-title">視線の流れ</h3>
-          <p class="about-item-text">ユーザーがどこで立ち止まり、どこへ進むのか。画面上の視線と判断の流れを整理します。</p>
+          <p class="about-item-text">
+            ユーザーがどこで立ち止まり、どこへ進むのか。
+            画面上の視線と判断の流れを整理します。
+          </p>
         </div>
 
         <div class="about-item fade-up">
           <h3 class="about-item-title">情報の優先順位</h3>
-          <p class="about-item-text">伝えたいことを並べるだけでなく、相手が理解しやすい順序へ再構成します。</p>
+          <p class="about-item-text">
+            伝えたいことを並べるだけでなく、
+            相手が理解しやすい順序へ再構成します。
+          </p>
         </div>
 
         <div class="about-item fade-up">
           <h3 class="about-item-title">問い合わせまでの導線</h3>
-          <p class="about-item-text">興味、理解、比較、相談までの流れを設計し、成果につながる接点を作ります。</p>
+          <p class="about-item-text">
+            興味、理解、比較、相談までの流れを設計し、
+            成果につながる接点を作ります。
+          </p>
         </div>
+
       </div>
+
+      <p class="about-signature fade-up">
+        STUDIO RADIO / 杉山
+      </p>
+
     </div>
   </section>
 
   <section class="contact" id="contact">
     <div class="contact-inner">
+
       <div>
         <div class="section-label fade-up">CONTACT</div>
 
@@ -800,15 +915,19 @@
         </p>
 
         <p class="contact-note fade-up">
-          Webサイト制作、リニューアル、ブランド設計など、目的や状況が固まっていない段階でもご相談いただけます。
+          Webサイト制作、リニューアル、ブランド設計など、
+          目的や状況が固まっていない段階でもご相談いただけます。
         </p>
       </div>
 
-      <form
-        class="contact-form fade-up"
-        action="https://formspree.io/f/maqvvozk"
-        method="POST"
-      >
+      <form class="contact-form fade-up" action="https://formspree.io/f/maqvvozk" method="POST">
+
+        <input
+          type="hidden"
+          name="_next"
+          value="https://studioradio.jp/thanks.html"
+        >
+
         <div class="form-row">
           <label for="project-type">相談内容</label>
           <select id="project-type" name="project-type">
@@ -820,47 +939,64 @@
         </div>
 
         <div class="form-grid">
+
           <div class="form-row">
             <label for="name">名前</label>
-            <input type="text" id="name" name="name" required>
+            <input type="text" id="name" name="name" placeholder="山田 太郎" required>
           </div>
 
           <div class="form-row">
             <label for="company">会社名（任意）</label>
-            <input type="text" id="company" name="company">
+            <input type="text" id="company" name="company" placeholder="株式会社サンプル">
           </div>
+
         </div>
 
         <div class="form-row">
           <label for="email">Email</label>
-          <input type="email" id="email" name="email" required>
+          <input type="email" id="email" name="email" placeholder="hello@example.com" required>
+        </div>
+
+        <div class="form-row">
+          <label for="phone">電話番号</label>
+          <input type="tel" id="phone" name="phone" placeholder="090-1234-5678" required>
         </div>
 
         <div class="form-grid">
+
           <div class="form-row">
             <label for="budget">予算感（任意）</label>
-            <input type="text" id="budget" name="budget">
+            <input type="text" id="budget" name="budget" placeholder="30万〜100万円">
           </div>
 
           <div class="form-row">
             <label for="schedule">希望時期（任意）</label>
-            <input type="text" id="schedule" name="schedule">
+            <input type="text" id="schedule" name="schedule" placeholder="3ヶ月以内">
           </div>
+
         </div>
 
         <div class="form-row">
           <label for="message">メッセージ</label>
-          <textarea id="message" name="message" required></textarea>
+          <textarea
+            id="message"
+            name="message"
+            placeholder="ご相談内容をご記入ください。"
+            required
+          ></textarea>
         </div>
 
         <button type="submit" class="submit-button">
           SEND MESSAGE
         </button>
+
       </form>
+
     </div>
   </section>
 
   <footer class="footer">
+    <a href="./privacy.html">Privacy Policy</a>
     © 2026 STUDIO RADIO. All rights reserved.
   </footer>
 
@@ -869,7 +1005,6 @@
 
     function hideLoading() {
       if (!loadingScreen) return;
-
       loadingScreen.classList.add('hidden');
       document.body.classList.remove('loading-active');
     }
@@ -896,7 +1031,9 @@
       const isOpen = mobileMenu.classList.toggle('is-open');
 
       document.body.classList.toggle('menu-open', isOpen);
+
       menuButton.textContent = isOpen ? 'CLOSE' : 'MENU';
+
       menuButton.setAttribute(
         'aria-label',
         isOpen ? 'メニューを閉じる' : 'メニューを開く'
@@ -907,6 +1044,7 @@
       link.addEventListener('click', () => {
         mobileMenu.classList.remove('is-open');
         document.body.classList.remove('menu-open');
+
         menuButton.textContent = 'MENU';
         menuButton.setAttribute('aria-label', 'メニューを開く');
       });
